@@ -10,5 +10,4 @@
 #SBATCH --output=<file_path>    # Path for output must already exist
 #SBATCH --error=<file_path>     # Path for errors must already exist
 #SBATCH --job-name="test"       # Name of job
-
-ls > test.txt
+echo "I just executed!"
