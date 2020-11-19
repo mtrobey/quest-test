@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A p1042               # Allocation
+#SBATCH -A p1042                # Allocation
 #SBATCH -p short                # Queue
 #SBATCH -t 24:00:00             # Walltime/duration of the job
 #SBATCH -N 1                    # Number of Nodes
