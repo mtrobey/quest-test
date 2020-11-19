@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -A p1042                # Allocation
-#SBATCH -p short                # Queue
+#SBATCH -p genomics                # Queue
 #SBATCH -t 24:00:00             # Walltime/duration of the job
 #SBATCH -N 1                    # Number of Nodes
 #SBATCH --mem=18G               # Memory per node in GB needed for a job. Also see --mem-per-cpu
